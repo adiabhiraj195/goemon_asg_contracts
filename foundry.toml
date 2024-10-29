@@ -2,5 +2,6 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+dotenv = true
+remappings = ["@uniswap/=lib/permit2/","@openzeppelin/=lib/openzeppelin-contracts/"]
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
